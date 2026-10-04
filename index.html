@@ -9,48 +9,118 @@
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Hobbyist Recipe Blog</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+ <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="index.html">
+      Hobbyist Recipe Blog
+    </a>
+
+    <div class="d-flex align-items-center ms-auto">
+
+      <a class="btn btn-warning btn-sm me-2" href="submit.html">
+  Submit Recipe
+</a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
-          <li class="nav-item"><a class="nav-link" href="recipe-detail.html">Recipe Detail</a></li>
-          <li class="nav-item"><a class="nav-link" href="submit.html">Submit Recipe</a></li>
-        </ul>
-      </div>
+
     </div>
-  </nav>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html">Recipes</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="recipe-detail.html">Recipe Detail</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
 </header>
 
 <main>
-  <section class="hero py-5">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-7">
-          <span class="badge text-bg-warning mb-3">Recipe of the Day</span>
-          <h1 class="display-4 fw-bold">Good food starts with a good recipe.</h1>
-          <p class="lead">Discover simple, delicious recipes shared by cooking enthusiasts.</p>
-          <a class="btn btn-dark btn-lg" href="recipes.html">Explore Recipes</a>
-        </div>
-        <div class="col-lg-5">
-          <img class="img-fluid rounded-4 shadow" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Fresh food on a table">
-        </div>
+<section class="hero py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+
+      <div class="col-lg-7">
+        <span class="badge text-bg-warning mb-3">
+          Recipe of the Day
+        </span>
+
+        <h1 class="display-4 fw-bold">
+          Tomato Basil Pasta
+        </h1>
+
+        <p class="lead">
+          A simple pasta recipe made with tomato and fresh basil.
+        </p>
+
+        <p>
+          <strong>25 min</strong> &nbsp; | &nbsp; Vegetarian
+        </p>
+
+        <a class="btn btn-dark" href="recipe-detail.html">
+          View Recipe
+        </a>
       </div>
+
+      <div class="col-lg-5">
+        <img
+          class="img-fluid rounded-4 shadow"
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+          alt="Fresh food on a table">
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <section class="py-5">
     <div class="container">
       <h2 class="mb-4">Popular Categories</h2>
       <div class="row g-4">
-        <div class="col-md-4"><article class="category-card p-4 rounded-4"><h3>Breakfast</h3><p>Start your morning with easy recipes.</p></article></div>
-        <div class="col-md-4"><article class="category-card p-4 rounded-4"><h3>Lunch</h3><p>Quick and satisfying meals for the day.</p></article></div>
-        <div class="col-md-4"><article class="category-card p-4 rounded-4"><h3>Desserts</h3><p>Sweet recipes for every occasion.</p></article></div>
+        <div class="col-md-4">
+  <article class="category-card p-4 rounded-4">
+    <h3>Breakfast</h3>
+    <p>Eggs, pancakes and quick morning meals.</p>
+    <<a href="recipes.html#breakfast" class="btn btn-outline-dark">
+    View Recipes
+</a>
+  </article>
+</div>
+
+<div class="col-md-4">
+  <article class="category-card p-4 rounded-4">
+    <h3>Lunch</h3>
+    <p>Pasta, rice and simple meals for the day.</p>
+    <a href="recipes.html#lunch" class="btn btn-outline-dark">
+  View Recipes
+</a>
+  </article>
+</div>
+
+<div class="col-md-4">
+  <article class="category-card p-4 rounded-4">
+    <h3>Desserts</h3>
+    <p>Cakes, cookies and other sweet recipes.</p>
+    <a href="recipes.html#desserts" class="btn btn-outline-dark">
+  View Recipes
+</a>
+  </article>
+</div>
       </div>
     </div>
   </section>
