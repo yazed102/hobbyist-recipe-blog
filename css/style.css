@@ -1,0 +1,29 @@
+body {
+  background: #fffaf4;
+}
+
+.hero {
+  background: #f3e7d3;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid #eadfce;
+}
+
+.recipe-img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.card {
+  border: 0;
+}
+
+h1, h2, h3 {
+  color: #29251f;
+}
+
+footer {
+  margin-top: 40px;
+}
