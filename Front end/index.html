@@ -30,115 +30,59 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg site-nav">
+       <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
 
-            <div class="container">
+        <!-- Website Brand -->
+        <a class="brand" href="index.html" aria-label="Hobbyist home">
+    <span class="brand-mark" aria-hidden="true">H</span>
+    <span>
+        <span class="brand-name">HOBBYIST</span>
+        <span class="brand-sub">Recipe Blog</span>
+    </span>
+</a>
+        <!-- Mobile Menu Button -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="mainNav">
 
-                <!-- Brand -->
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
-                <a href="index.html" class="brand">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        Home
+                    </a>
+                </li>
 
-                    <span class="brand-mark">
-                        H
-                    </span>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">
+                        Recipes
+                    </a>
+                </li>
 
-                    <span>
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                    <a class="btn btn-brand" href="submit.html">
+                        Share a Recipe
+                    </a>
+                </li>
 
-                        <span class="brand-name">
-                            HOBBYIST
-                        </span>
+            </ul>
 
-                        <span class="brand-sub">
-                            Recipe Blog
-                        </span>
+        </div>
 
-                    </span>
-
-                </a>
-
-
-                <!-- Mobile Menu Button -->
-
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#mainNavigation"
-                    aria-controls="mainNavigation"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-
-
-                <!-- Navigation Links -->
-
-                <div
-                    class="collapse navbar-collapse"
-                    id="mainNavigation"
-                >
-
-                    <ul class="navbar-nav ms-auto align-items-lg-center">
-
-                        <li class="nav-item">
-
-                            <a
-                                class="nav-link active"
-                                href="index.html"
-                            >
-                                Home
-                            </a>
-
-                        </li>
-
-
-                        <li class="nav-item">
-
-                            <a
-                                class="nav-link"
-                                href="recipes.html"
-                            >
-                                Recipes
-                            </a>
-
-                        </li>
-
-
-                        <li class="nav-item">
-
-                            <a
-                                class="nav-link"
-                                href="recipe-detail.html"
-                            >
-                                Recipe Detail
-                            </a>
-
-                        </li>
-
-
-                        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-
-                            <a
-                                href="submit.html"
-                                class="btn btn-brand"
-                            >
-                                Share a Recipe
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </nav>
-
+    </div>
+</nav>
     </header>
 
 
