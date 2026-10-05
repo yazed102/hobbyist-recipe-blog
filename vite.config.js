@@ -13,8 +13,7 @@ export default defineConfig({
         index: resolve(__dirname, 'Front end/index.html'),
         recipes: resolve(__dirname, 'Front end/recipes.html'),
         recipeDetail: resolve(__dirname, 'Front end/recipe-detail.html'),
-        submit: resolve(__dirname, 'Front end/submit.html'),
-        about: resolve(__dirname, 'Front end/about.html')
+        submit: resolve(__dirname, 'Front end/submit.html')
       }
     }
   }

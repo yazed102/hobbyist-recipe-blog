@@ -1,212 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap');
-
-
 /* =========================================
-   GENERAL
-========================================= */
+   HOBBYIST RECIPE BLOG
+   Main Stylesheet
+   ========================================= */
 
-* {
-    box-sizing: border-box;
-}
 
-html {
-    scroll-behavior: smooth;
-}
+/* Basic page settings */
 
 body {
     margin: 0;
-    background: #f7f4ed;
-    color: #25231f;
-    font-family: "DM Sans", sans-serif;
-    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6f7;
+    color: #1f2937;
 }
+
+
+/* Remove default link underline */
 
 a {
-    color: inherit;
     text-decoration: none;
 }
 
-.container {
-    max-width: 1160px;
-}
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Lora", Georgia, serif;
-    color: #25231f;
-}
-
-
-/* =========================================
-   NAVIGATION
-========================================= */
-
-.site-nav {
-    background: #ffffff;
-    border-bottom: 1px solid #ddd8ce;
-    padding: 14px 0;
-}
-
-.brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-}
-
-.brand-mark {
-    width: 34px;
-    height: 34px;
-    background: #b94a35;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.brand-name {
-    display: block;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-}
-
-.brand-sub {
-    display: block;
-    color: #777269;
-    font-size: 0.7rem;
-}
-
-.nav-link {
-    color: #5f5a52 !important;
-    font-size: 0.92rem;
-    font-weight: 600;
-}
-
-.nav-link:hover,
-.nav-link.active {
-    color: #b94a35 !important;
-}
-
-.btn-brand {
-    background: #b94a35;
-    border: 1px solid #b94a35;
-    color: #ffffff;
-    border-radius: 4px;
-    font-weight: 600;
-    padding: 8px 16px;
-}
-
-.btn-brand:hover {
-    background: #943b2b;
-    border-color: #943b2b;
-    color: #ffffff;
-}
-
-
-/* =========================================
-   MAIN
-========================================= */
+/* Main content spacing */
 
 main {
-    min-height: 70vh;
-}
-
-
-/* =========================================
-   PAGE HEADER
-========================================= */
-
-.page-header {
-    background: #eee8dc;
-    border-bottom: 1px solid #ddd8ce;
-    padding: 55px 0;
-}
-
-.page-header h1 {
-    margin: 0;
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    line-height: 1.1;
-}
-
-.page-header p {
-    max-width: 650px;
-    color: #716c63;
-    margin-top: 15px;
-}
-
-
-/* =========================================
-   GENERAL SECTIONS
-========================================= */
-
-.page-section {
-    padding: 70px 0;
-}
-
-.section-title {
-    margin-bottom: 10px;
-}
-
-.section-description {
-    color: #716c63;
-}
-
-
-/* =========================================
-   FOOTER
-========================================= */
-
-.site-footer {
-    background: #292824;
-    color: #ffffff;
-    padding: 45px 0 20px;
-}
-
-.site-footer h3 {
-    color: #ffffff;
-    font-family: "DM Sans", sans-serif;
-    font-size: 1.1rem;
-}
-
-.footer-text {
-    color: #bdb7ad;
-    max-width: 450px;
-}
-
-.footer-bottom {
-    border-top: 1px solid #49463f;
-    margin-top: 35px;
-    padding-top: 18px;
-    color: #aaa49a;
-    font-size: 0.82rem;
-}
-
-
-/* =========================================
-   RESPONSIVE
-========================================= */
-
-@media (max-width: 991px) {
-
-    .site-nav .navbar-collapse {
-        padding-top: 15px;
-    }
-
-}
-
-@media (max-width: 575px) {
-
-    .page-section {
-        padding: 50px 0;
-    }
-
-    .page-header {
-        padding: 45px 0;
-    }
-
+    min-height: 500px;
 }
