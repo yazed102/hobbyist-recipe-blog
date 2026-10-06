@@ -1366,3 +1366,38 @@ section h3 {
         font-size: 15px;
     }
 }
+/* Button interaction polish */
+
+.btn-primary-custom,
+.btn-secondary-custom,
+.nav-link-button {
+    transition: all 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+    transform: translateY(-2px);
+}
+
+.btn-secondary-custom:hover {
+    transform: translateY(-2px);
+}
+
+.nav-link-button:hover {
+    transform: translateY(-1px);
+}
+
+.filter-button {
+    transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+    transform: translateY(-1px);
+}
+
+.recipe-switcher a {
+    transition: all 0.2s ease;
+}
+
+.recipe-switcher a:hover {
+    transform: translateY(-1px);
+}
