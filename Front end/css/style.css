@@ -1018,3 +1018,153 @@ a {
         gap: 25px;
     }
 }
+/* =========================================
+   Recipe Submission Page
+   ========================================= */
+
+.submission-hero {
+    background-color: #f7f2e8;
+    padding: 85px 0;
+}
+
+.submission-hero h1 {
+    color: #252525;
+    font-size: clamp(48px, 6vw, 72px);
+    margin: 10px 0 20px;
+}
+
+.submission-hero > .container > p:last-child {
+    max-width: 600px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.submission-section {
+    padding: 90px 0 100px;
+    background-color: #ffffff;
+}
+
+.submission-layout {
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.submission-intro {
+    position: sticky;
+    top: 30px;
+}
+
+.submission-intro h2 {
+    color: #252525;
+    font-size: 40px;
+    line-height: 1.15;
+    margin: 10px 0 20px;
+}
+
+.submission-intro > p:last-child {
+    color: #666;
+    line-height: 1.7;
+    max-width: 400px;
+}
+
+.submission-form-wrapper {
+    background-color: #f7f2e8;
+    padding: 45px;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    border: 1px solid #d6d0c4;
+    background-color: #ffffff;
+    color: #252525;
+    padding: 13px 15px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #a77b08;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group input[type="file"] {
+    padding: 10px;
+}
+
+.submission-form-wrapper .btn {
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+
+    .submission-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .submission-intro {
+        position: static;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .submission-hero {
+        padding: 65px 0;
+    }
+
+    .submission-section {
+        padding: 65px 0;
+    }
+
+    .submission-intro h2 {
+        font-size: 34px;
+    }
+
+    .submission-form-wrapper {
+        padding: 30px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
