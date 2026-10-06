@@ -1462,3 +1462,19 @@ section h3 {
         padding: 55px 0;
     }
 }
+/* Final frontend cleanup */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
