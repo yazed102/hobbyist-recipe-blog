@@ -984,3 +984,37 @@ a {
         grid-template-columns: 1fr;
     }
 }
+/* =========================================
+   Recipe Extra Information
+   ========================================= */
+
+.recipe-extra-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.recipe-extra-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recipe-extra-info span {
+    color: #777;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.recipe-extra-info strong {
+    color: #252525;
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+    .recipe-extra-info {
+        gap: 25px;
+    }
+}
