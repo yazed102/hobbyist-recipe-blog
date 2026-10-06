@@ -1417,3 +1417,48 @@ section h3 {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
+/* Final small-screen spacing polish */
+
+@media (max-width: 400px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-section {
+        padding: 55px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-actions a {
+        text-align: center;
+    }
+
+    .submission-hero h1 {
+        font-size: 44px;
+    }
+
+    .submission-section {
+        padding: 55px 0;
+    }
+
+    .recipe-detail-hero {
+        padding: 50px 0;
+    }
+
+    .recipe-detail-intro h1 {
+        font-size: 42px;
+    }
+
+    .related-recipes-section {
+        padding: 55px 0;
+    }
+}
