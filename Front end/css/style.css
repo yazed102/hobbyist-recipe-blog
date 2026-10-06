@@ -1329,3 +1329,40 @@ a {
         padding: 13px 20px;
     }
 }
+/* Global typography and spacing polish */
+
+.section-eyebrow {
+    color: #a77b08;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: #252525;
+    font-size: 42px;
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.section-text {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+section h2,
+section h3 {
+    letter-spacing: -0.3px;
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 34px;
+    }
+
+    .section-text {
+        font-size: 15px;
+    }
+}
