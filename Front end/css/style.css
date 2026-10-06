@@ -950,3 +950,37 @@ a {
         font-size: 12px;
     }
 }
+/* =========================================
+   Related Recipes
+   ========================================= */
+
+.related-recipes-section {
+    padding: 90px 0;
+    background-color: #f7f2e8;
+}
+
+.related-recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.related-recipes-grid .recipe-card {
+    background-color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .related-recipes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .related-recipes-section {
+        padding: 65px 0;
+    }
+
+    .related-recipes-grid {
+        grid-template-columns: 1fr;
+    }
+}
