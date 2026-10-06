@@ -1,33 +1,35 @@
 /* =========================================
    HOBBYIST RECIPE BLOG
-   Main Stylesheet
+   Step 1 - Base Styles
    ========================================= */
 
-
-/* Basic page settings */
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5f6f7;
-    color: #1f2937;
+    color: #252525;
+    background-color: #ffffff;
 }
 
-
-/* Remove default link underline */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 a {
-    text-decoration: none;
+    color: inherit;
 }
 
-
-/* Main content spacing */
-
-main {
-    min-height: 500px;
+.container {
+    width: 100%;
 }
 
-/* Navigation */
+/* =========================================
+   Navigation
+   ========================================= */
 
 .navbar {
     background-color: #f7f2e8;
@@ -92,7 +94,13 @@ main {
     background-color: #3d3d3d;
 }
 
+
+/* =========================================
+   Responsive Navigation
+   ========================================= */
+
 @media (max-width: 991px) {
+
     .nav-link {
         margin-left: 0;
         padding: 10px 0;
@@ -104,7 +112,9 @@ main {
     }
 }
 
-/* Footer */
+/* =========================================
+   Footer
+   ========================================= */
 
 .site-footer {
     background-color: #252525;
@@ -156,7 +166,13 @@ main {
     font-size: 14px;
 }
 
+
+/* =========================================
+   Responsive Footer
+   ========================================= */
+
 @media (max-width: 768px) {
+
     .footer-content {
         flex-direction: column;
     }
@@ -164,5 +180,96 @@ main {
     .footer-links {
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+/* =========================================
+   Home Hero
+   ========================================= */
+
+.hero-section {
+    background-color: #f7f2e8;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 720px;
+}
+
+.hero-eyebrow {
+    color: #a77b08;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.hero-content h1 {
+    color: #252525;
+    font-size: clamp(48px, 7vw, 86px);
+    line-height: 0.98;
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.hero-text {
+    max-width: 560px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-primary-custom,
+.btn-secondary-custom {
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-primary-custom {
+    background-color: #252525;
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.btn-secondary-custom {
+    border: 1px solid #252525;
+    color: #252525;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #252525;
+    color: white;
+}
+
+
+/* =========================================
+   Responsive Hero
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 70px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
+    .hero-text {
+        font-size: 16px;
     }
 }
