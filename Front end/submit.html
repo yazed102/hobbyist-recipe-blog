@@ -75,7 +75,221 @@
     ========================== -->
     <main>
 
-        <!-- Recipe submission form will be added here -->
+      <!-- Submission Page -->
+<section class="submission-hero">
+
+    <div class="container">
+
+        <p class="hero-eyebrow">HOBBYIST COMMUNITY</p>
+
+        <h1>Share Your Recipe</h1>
+
+        <p>
+            Have a homemade recipe you love?
+            Share it with the Hobbyist community.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="submission-section">
+
+    <div class="container">
+
+        <div class="submission-layout">
+
+            <div class="submission-intro">
+
+                <p class="section-eyebrow">YOUR RECIPE</p>
+
+                <h2>Tell us how you make it.</h2>
+
+                <p>
+                    Fill in the details below to share your favorite
+                    homemade recipe with other food lovers.
+                </p>
+
+            </div>
+
+
+            <div class="submission-form-wrapper">
+
+                <form>
+
+                    <div class="form-group">
+
+                        <label for="recipe-title">
+                            Recipe Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="recipe-title"
+                            name="recipe-title"
+                            placeholder="e.g. Homemade Pasta"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="recipe-category">
+                            Category
+                        </label>
+
+                        <select
+                            id="recipe-category"
+                            name="recipe-category"
+                            required>
+
+                            <option value="">
+                                Select a category
+                            </option>
+
+                            <option value="breakfast">
+                                Breakfast
+                            </option>
+
+                            <option value="main-dish">
+                                Main Dish
+                            </option>
+
+                            <option value="pasta">
+                                Pasta
+                            </option>
+
+                            <option value="pizza">
+                                Pizza
+                            </option>
+
+                            <option value="rice">
+                                Rice
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="prep-time">
+                                Prep Time
+                            </label>
+
+                            <input
+                                type="number"
+                                id="prep-time"
+                                name="prep-time"
+                                placeholder="Minutes"
+                                min="1"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="cook-time">
+                                Cook Time
+                            </label>
+
+                            <input
+                                type="number"
+                                id="cook-time"
+                                name="cook-time"
+                                placeholder="Minutes"
+                                min="1"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="description">
+                            Recipe Description
+                        </label>
+
+                        <textarea
+                            id="description"
+                            name="description"
+                            rows="4"
+                            placeholder="Tell us about your recipe..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="ingredients">
+                            Ingredients
+                        </label>
+
+                        <textarea
+                            id="ingredients"
+                            name="ingredients"
+                            rows="7"
+                            placeholder="List your ingredients..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="instructions">
+                            Instructions
+                        </label>
+
+                        <textarea
+                            id="instructions"
+                            name="instructions"
+                            rows="8"
+                            placeholder="Explain the steps..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="recipe-image">
+                            Recipe Image
+                        </label>
+
+                        <input
+                            type="file"
+                            id="recipe-image"
+                            name="recipe-image"
+                            accept="image/*">
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary-custom">
+                        Submit Recipe
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
     </main>
 
