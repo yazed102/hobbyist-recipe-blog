@@ -128,7 +128,7 @@
 
 </div>
 
-                <form>
+                <form aria-label="Recipe submission form">
 
                     <div class="form-group">
 
@@ -384,10 +384,11 @@
 
     <div class="image-upload-box">
         <input type="file" id="recipe-image" name="recipe-image"
-               accept="image/*">
+       accept="image/*"
+       aria-describedby="image-help">
 
         <p>Upload a clear image of your finished recipe.</p>
-        <small>JPG, PNG or other image formats</small>
+        <small id="image-help">JPG, PNG or other image formats</small>
     </div>
     
 </div>
