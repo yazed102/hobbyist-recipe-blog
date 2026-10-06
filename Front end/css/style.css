@@ -856,3 +856,26 @@ a {
         font-size: 34px;
     }
 }
+/* =========================================
+   Recipe Detail Note
+   ========================================= */
+
+.recipe-note {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 4px solid #e5b93f;
+}
+
+.recipe-note strong {
+    display: block;
+    color: #252525;
+    margin-bottom: 8px;
+}
+
+.recipe-note p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+}
