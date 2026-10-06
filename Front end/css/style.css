@@ -1234,3 +1234,29 @@ a {
     color: #999;
     font-size: 12px;
 }
+@media (max-width: 576px) {
+    .recipe-card {
+        border-radius: 8px;
+    }
+
+    .recipe-card-image {
+        height: 220px;
+    }
+
+    .recipe-card-content {
+        padding: 20px;
+    }
+
+    .recipe-card-content h3 {
+        font-size: 24px;
+    }
+
+    .recipe-card-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .recipe-card-meta {
+        font-size: 12px;
+    }
+}
