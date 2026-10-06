@@ -395,3 +395,72 @@ a {
         font-size: 30px;
     }
 }
+/* =========================================
+   Popular Categories
+   ========================================= */
+
+.categories-section {
+    padding: 90px 0;
+    background-color: #f7f2e8;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.category-card {
+    background-color: #ffffff;
+    padding: 35px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #252525;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+    color: #252525;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.category-icon {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.category-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* =========================================
+   Responsive Categories
+   ========================================= */
+
+@media (max-width: 991px) {
+
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .categories-section {
+        padding: 65px 0;
+    }
+
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+}
