@@ -1292,3 +1292,40 @@ a {
         padding-bottom: 18px;
     }
 }
+@media (max-width: 576px) {
+    .submission-form-wrapper {
+        border-radius: 8px;
+    }
+
+    .form-group {
+        margin-bottom: 22px;
+    }
+
+    .form-group label {
+        font-size: 13px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .image-upload-box {
+        padding: 20px 15px;
+    }
+
+    .image-upload-box p {
+        font-size: 13px;
+    }
+
+    .image-upload-box small {
+        font-size: 11px;
+    }
+
+    .submission-form-wrapper .btn {
+        width: 100%;
+        padding: 13px 20px;
+    }
+}
