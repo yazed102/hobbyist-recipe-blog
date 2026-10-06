@@ -879,3 +879,14 @@ a {
     font-size: 14px;
     line-height: 1.7;
 }
+/* =========================================
+   Recipe Selection
+   ========================================= */
+
+.recipe-detail {
+    display: none;
+}
+
+.recipe-detail:target {
+    display: block;
+}
