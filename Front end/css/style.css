@@ -556,3 +556,90 @@ a {
         grid-template-columns: 1fr;
     }
 }
+/* =========================================
+   Recipe Catalog
+   ========================================= */
+
+.catalog-hero {
+    background-color: #f7f2e8;
+    padding: 85px 0;
+}
+
+.catalog-hero h1 {
+    color: #252525;
+    font-size: clamp(48px, 6vw, 72px);
+    margin: 10px 0 20px;
+}
+
+.catalog-hero > .container > p:last-child {
+    max-width: 600px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+.catalog-section {
+    padding: 80px 0 100px;
+    background-color: #ffffff;
+}
+
+.catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.catalog-header h2 {
+    color: #252525;
+    font-size: 42px;
+    margin: 0;
+}
+
+.recipe-catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* Catalog responsive */
+
+@media (max-width: 991px) {
+
+    .recipe-catalog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .catalog-hero {
+        padding: 65px 0;
+    }
+
+    .catalog-section {
+        padding: 65px 0;
+    }
+
+    .catalog-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .catalog-header h2 {
+        font-size: 34px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .recipe-catalog-grid {
+        grid-template-columns: 1fr;
+    }
+}
