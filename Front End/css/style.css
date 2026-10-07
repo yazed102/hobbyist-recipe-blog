@@ -1,0 +1,28 @@
+/* =========================================
+   HOBBYIST RECIPE BLOG
+   Step 1 - Base Styles
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+}
