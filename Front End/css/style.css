@@ -222,3 +222,123 @@ a {
         font-size: 16px;
     }
 }
+/* =========================================
+   Featured Recipe
+   ========================================= */
+
+.featured-recipe-section {
+    padding: 90px 0;
+    background-color: #ffffff;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+}
+
+.section-eyebrow {
+    color: #a77b08;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.section-heading h2 {
+    color: #252525;
+    font-size: 42px;
+    margin: 0;
+}
+
+.featured-recipe-card {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    background-color: #f7f2e8;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.featured-recipe-image {
+    min-height: 420px;
+}
+
+.featured-recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.featured-recipe-content {
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recipe-category {
+    color: #a77b08;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.featured-recipe-content h3 {
+    color: #252525;
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.featured-recipe-content > p:not(.recipe-category) {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.recipe-meta {
+    display: flex;
+    gap: 25px;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.recipe-link {
+    color: #252525;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.recipe-link:hover {
+    color: #a77b08;
+}
+
+
+/* Responsive Featured Recipe */
+
+@media (max-width: 768px) {
+
+    .featured-recipe-section {
+        padding: 65px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 34px;
+    }
+
+    .featured-recipe-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-recipe-image {
+        min-height: 280px;
+    }
+
+    .featured-recipe-content {
+        padding: 35px 25px;
+    }
+
+    .featured-recipe-content h3 {
+        font-size: 30px;
+    }
+}
